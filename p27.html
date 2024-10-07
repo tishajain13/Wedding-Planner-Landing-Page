@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home| Wedding Planner</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+        .nav{
+            background-color: white;
+            padding-top: 50px;
+            
+        }
+        .nav li{
+            list-style: none;
+            display: inline;
+             }
+             .bar{
+                color: black;
+                text-decoration: none;
+                padding: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 17px;
+                padding-top: 20px;
+             }
+             .bar:hover{
+                color: #6e6e6e;
+             }
+             .d1{
+                display: flex;
+             }
+             .logo{
+                width: 190px;
+                padding: 20px;
+                padding-left: 200px;
+                
+             }
+             .leaf1{
+                width: 140px;
+                padding-left: 410px;
+                z-index: -1;
+                position: relative;
+             }
+             .btn{
+                background-color: #f5baba;
+                position: absolute;
+                color: white;
+                text-decoration: none;
+                margin-left: 1330px;
+                margin-top: 50px;
+                padding: 10px;
+                border-radius: 2px;
+                padding-right: 28px;
+                padding-left: 28px;
+
+             }
+             .couple1{
+                margin-left: 40px;
+             }
+             .d2{
+                display: flex;
+                gap: 80px;
+            }
+            .d3{
+                width: 550px;
+                text-align: center;
+                margin-top: 80px
+
+            }
+            .couple2{
+                width: 400px;
+                height: 400px;
+                margin-right: 40px;
+            }
+            .p1{
+                font-size: 16px;
+                font-family: "Mulish", sans-serif;
+                font-optical-sizing: auto;
+               font-weight: 150;
+               font-style: normal;
+               margin-top: 100px;
+               margin-left: 40px;
+               text-align: center;
+               /* z-index: -1; */
+               
+              
+            }
+            .wed{
+                font-size: 100px;
+                font-family: "Mulish", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+               font-style: normal;
+               margin-top: 0;
+               text-align: center;
+
+
+            }
+            .p2{
+                font-size: 17px;
+                font-family: "Mulish", sans-serif;
+                font-optical-sizing: auto;
+               font-weight: 150;
+               font-style: normal;
+               margin-top: -40px;
+               color: #6e6e6e;
+               margin-bottom: 40px;
+               text-align: center;
+
+            }
+            .btn2{
+                background-color: #8FB1A6; 
+                text-decoration: none;
+                color: white;
+                font-family: "Mulish", sans-serif;
+                font-optical-sizing: auto;
+                padding: 12px;
+                padding-left: 28px;
+                padding-right: 28px;
+                letter-spacing: 1px;
+                font-size: 14px;
+                text-align: center;
+              }
+              .btn2:hover{
+                box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.263);
+              }
+              .leaf2{
+                width: 170px;
+                position: absolute;
+                z-index: 1;
+                margin-left: -120px;
+                margin-top: -80px;              
+              }
+              .leaf3{
+                width: 170px;
+                position: absolute;
+                z-index: 1;
+                margin-left: 50px;
+                margin-top: -40px;
+              }
+              .cake{
+                width: 210px;
+                height: 230px;
+                position: absolute;
+                margin-left: 1280px; 
+                margin-top: 350px;   
+                         
+            }
+            .bouquet{
+                position: absolute;
+                width: 200px;
+                height: 180px;
+                margin-left: -100px;
+                margin-top: 50px;
+
+            }
+            .pinkl{
+                position: absolute;
+                width: 200px;
+                margin-top: 500px;
+                z-index: 1;
+                margin-left: -110px;
+            }
+            .shoe{
+                width: 190px;
+                height: 190px;
+                position: absolute;
+                z-index: 2;
+                margin-top: 570px;
+                margin-left: -300px;
+            }
+            .leaf4{
+                position: absolute;
+                width: 200px;
+                margin-left: 1150px;
+                margin-top: 350px;
+                z-index: -1;
+            }
+            .hair{
+                width: 200px;
+                position: absolute;
+                margin-left: 1060px;
+                margin-top: 470px;
+                z-index: 1;
+
+            }
+            .leaf5{
+                width: 180px;
+                position: absolute;
+                margin-top: -80px;
+                margin-left: -85px;
+
+            }
+            .d4{
+                margin-top: 190px;
+                margin-left: 75px;
+                display: flex;
+                gap: 100px;
+
+            }
+            .text1{
+                color: #6e6e6e;
+                font-family: "Mulish", sans-serif;
+                font-size: 15px;
+
+            }
+            .text2{
+                color: black;
+                font-size: 50px;
+                font-family: "Mulish", sans-serif;
+                margin-top: -10px;
+
+            }
+           .d5{
+            width: 500px;
+           }
+           .d6{
+            width: 800px;
+           }
+           .text3{
+            color: #4d4b4b;
+            font-size: 16px;
+            font-family: "Mulish", sans-serif;
+            margin-top: 10px;
+            margin-bottom: 40px;
+           }
+           .btn3{
+            color: white;
+            background-color: #f5b19c;
+            text-decoration: none;
+           font-family: "Mulish", sans-serif;
+            font-optical-sizing: auto;
+           padding: 12px;
+           padding-left: 28px;
+           padding-right: 28px;
+            letter-spacing: 1px;
+            font-size: 14px;
+            text-align: center;
+           }
+           .btn3:hover{
+            box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.263);
+
+           }
+           .d7{
+            display: flex;
+            gap: 40px;
+            margin-left: 50px;
+            margin-top: 40px;
+         
+           }
+
+           .pic1{
+            /* position: absolute; */
+            width: 290px;
+            height: 430px;
+            margin-top: 80px;
+          opacity: 1;
+           }
+           .pic1:hover{
+ opacity: .8;
+           }
+           .pic2{
+            /* position: absolute; */
+            width: 360px;
+            height: 490px;
+            margin-top: 50px;
+            opacity: 1;
+
+            }
+            .pic2:hover{
+                opacity: .8;
+            }
+
+          .pic3{
+            /* position: absolute; */
+            width: 290px;
+            height: 430px;
+            margin-top: 80px;
+            opacity: 1;
+          }
+          .pic3:hover{
+            opacity: .8;
+          }
+          .pic4{
+            /* position: absolute; */
+            width: 360px;
+            height: 190x;
+            margin-top: 50px;
+            opacity: 1;
+      }
+      .pic4:hover{
+        opacity: .8;
+      }
+          .d8{
+            display: flex;
+            margin-top: 110px;
+            margin-left: 110px;
+            gap: 30px;
+
+          }
+          .card1{
+            width: 422px;
+            height: 340px;
+           
+          }
+          .card1 img{
+            width: 250px;
+            margin-left: 60px;
+          }
+          .card2{
+            width: 422px;
+            height: 340px;
+            padding-right: 20px;
+            padding-left: 20px;
+          }
+          .card2 img{
+            width: 250px;
+            margin-left: 20px;
+          }  
+          .card3{
+            width: 422px;
+            height: 340px;
+            padding-right: 20px;
+            padding-left: 20px;
+          }
+          .card3 img{
+            width: 250px;
+          }
+          .c1{
+            font-size: 26px;
+            font-family: "Mulish", sans-serif;
+            color: black;
+            margin-left: 55px;
+           }
+           .c2{
+            font-size: 15px;
+            font-family: "Mulish", sans-serif;
+            color: #6e6e6e;
+            width: 350px;
+            margin-top: -15px;
+            text-align: center;
+            margin-left: -15px;
+
+           }
+           .cardbtn1{
+            color: #6e6e6e;
+            margin-left: 115px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            border-bottom: 2px solid;   
+            font-size: 15px;
+           }
+           .cardbtn1:hover{
+            font-size: 14px;
+           }
+           .cardbtn2{
+            margin-top: -35px;
+            color: #6e6e6e;
+            margin-left: 115px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            border-bottom: 2px solid;
+            font-size: 15px;
+           }
+           .cardbtn2:hover{
+            font-size: 14px;
+           }
+           .cardbtn3{
+            margin-top: -35px;
+            color: #6e6e6e;
+            margin-left: 115px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            border-bottom: 2px solid;
+            padding-top: 30px;
+            font-size: 15px;
+        }
+
+           .cardbtn3:hover{
+            font-size: 14px;
+           }
+
+         .d9{
+            display: flex;
+            position: relative;
+            right: 0;
+            left: 0;
+            margin-top: 100px;
+            height: 550px;
+            overflow: hidden;
+         }
+         /* .g1{
+            display: flex;
+         } */
+        .gimg{
+            margin-top: -10px;
+        }
+        .it1{
+            position: absolute;
+            color: white;
+            font-family: "Mulish", sans-serif;
+            background-color: rgba(255, 255, 255, 0.04);
+            width: 600px;
+            height: 600px;
+            text-align: center;
+            padding-top: 200px;
+            font-size: 30px;
+            z-index: 1;
+        }
+        .it1:hover .it1{
+              display: block;
+        }
+         .it2{
+            position: absolute;
+            color: white;
+            font-family: "Mulish", sans-serif;
+            background-color: rgba(255, 255, 255, 0.096);
+            width: 450px;
+            height: 300px;
+            margin-top: -310px;
+            text-align: center;
+            /* padding-top: 100px; */
+            font-size: 30px;
+        }
+        .it2 p{
+            padding-top: 60px;
+        }
+        .it3{
+            position: absolute;
+            color: white;
+            font-family: "Mulish", sans-serif;
+            background-color: rgba(255, 255, 255, 0.096);
+            width: 450px;
+            height: 300px;
+            margin-top: -310px;
+            text-align: center;
+            /* padding-top: 100px; */
+            font-size: 30px;
+        }
+        .it3 p{
+            padding-top: 60px;
+        } 
+        .it4{
+            position: absolute;
+            color: white;
+            font-family: "Mulish", sans-serif;
+            background-color: rgba(255, 255, 255, 0.096);
+            width: 500px;
+            height: 300px;
+            margin-top: -310px;
+            text-align: center;
+            /* padding-top: 100px; */
+            font-size: 30px;
+        }
+        .it4 p{
+            padding-top: 160px;
+        } 
+        .it5{
+            position: absolute;
+            color: white;
+            font-family: "Mulish", sans-serif;
+            background-color: rgba(255, 255, 255, 0.096);
+            width: 500px;
+            height: 300px;
+            margin-top: -305px;
+            text-align: center;
+            /* padding-top: 100px; */
+            font-size: 30px;
+        }
+        .it5 p{
+            padding-top: 60px;
+        } 
+        .d10{
+            margin-top: 100px;
+            margin-left: 80px;
+            display: flex;
+        }
+        .tws{
+            font-size: 15px;
+            font-family: "Mulish", sans-serif;
+            color: #6e6e6e;
+
+        }
+        .dew{
+            font-size: 50px;
+            font-family: "Mulish", sans-serif;
+          margin-top: -10px;
+
+        }
+        .d11{
+            margin-top: 250px;
+           margin-left: 80px;
+           margin-right: 50px;
+            font-family: "Mulish", sans-serif;
+          font-size: 18px;
+        color: #6e6e6e;
+        }
+        .abcd{
+            margin-bottom: 30px;
+
+        }
+        .btn4{
+            text-decoration: none;
+            font-family: "Mulish", sans-serif;
+            color: white;
+            background-color: #f5b19c;
+           padding: 15px;
+           padding-left: 40px;
+           padding-right: 40px;
+          margin-top: 40px;
+        }
+        .btn4:hover{
+            padding: 10px;
+           padding-left: 30px;
+           padding-right: 30px
+        }
+        .leaf8{
+            width: 230px;
+            position: absolute;
+            margin-left: -680px;
+            margin-top: 300px;
+            z-index: 1;
+        }
+        .pink8{
+            position: absolute;
+            margin-top: -130px;
+           width: 200px;
+           margin-left: 590px;
+           z-index: -1;
+        }
+       .wedvenue:hover{
+        opacity: .7;
+       }
+       .d12{
+        display: flex;
+        margin-top: 200px;
+        gap: 100px;
+        margin-left: 80px;
+       }
+.d12 img{
+    width: 180px;
+    opacity: .3;
+
+
+}
+.d12 img:hover{
+    opacity: 1;
+}
+.d13{
+    display: flex;
+    margin-top: 150px; 
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+}
+.trans1{
+    background-color: rgba(0, 0, 0, 0.618);
+    width: 100%;
+    height: 500px;
+    margin-top: -500px;
+}
+.trans1 p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    position: relative;
+    font-weight: 800;
+    margin-top: 300px;
+    text-shadow: 0px 0px 10px black;
+    
+}
+.contact{
+    display: flex;
+    margin-top: 800px;
+}
+.down{
+    position: absolute;
+    z-index: -1;
+    width:600px;
+    border-radius: 80px;
+  
+}
+.up{
+    width: 350px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+.frm{
+    margin-left: 70px;
+}
+ .input{
+    width: 400px;
+    height: 50px;
+    border: none ;
+border-bottom: 2px solid #6e6e6e;
+    
+ }
+ .msg{
+    border: none ;
+    border-bottom: 2px solid #6e6e6e;
+ }
+ .input::placeholder{
+    font-family: "Mulish", sans-serif;
+
+ }
+ .sbt{
+    width: 400px;
+    height: 50px;
+    color: white;
+            background-color: #f5b19c;
+           font-family: "Mulish", sans-serif; 
+        border: none;
+        font-size: 20px;
+    }
+    .fp1{
+        font-size: 15px;
+            font-family: "Mulish", sans-serif;
+            color: #6e6e6e;
+    }
+    .fp2{
+        font-size: 50px;
+            font-family: "Mulish", sans-serif;
+          margin-top: -10px;
+       margin-right: 20px;
+    }
+    .footer{
+        display: flex;
+        margin-top: 100px;
+        gap: 100px;
+        margin-left: 100px;
+    }
+    .f1{
+        width: 500px;
+    }
+    .f1 p{
+        color: #6e6e6e;
+        font-size: 17px;
+        width: 350px;
+    } 
+    .f1 img{
+        margin-top: -40px;
+        margin-left: -25px;
+    }
+    .f2 li{
+        color: #6e6e6e;
+        margin-left: -20px;
+        font-size: 17px;
+    }
+    .f2{
+        margin-left: -100px;
+    }
+    .footer h3{
+        font-size: 20px;
+    }
+    .lst{
+        margin-left: 80px;
+    }
+    .leaf9{
+        margin-left: 500px;
+        width: 230px;
+        transform: rotate(40deg);
+        margin-top: -140px;
+    }
+    .d14{
+        display: flex;
+       margin-top: 20px;
+    }
+    .logo1{
+        width: 200px;
+        height: 100px;
+    }
+  .mail1{
+    width: 40px;
+    height: 40px;
+    margin-left: 1000px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .mm{
+    margin-top: 25px;
+    color: #6e6e6e;
+  }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <ul class="nav">
+            <li><a class="bar" href="#home">Home</a></li>
+            <li><a class="bar" href="#about">About</a></li>
+            <li><a class="bar" href="#services">Services</a></li>
+            <li><a class="bar" href="#gallery">Gallery</a></li>
+            <li><a class="bar" href="#contact">Contact</a></li>
+        </ul>   
+        <img class="logo" src="./images/logo.png"> 
+        <img class="leaf1" src="./images/leaf1.png">
+        <a class="btn" href="#">GET A QUOTE</a>
+    </div>
+    <div class="d2" id="home">
+        <div>
+            <img class="leaf5" src="./images/leave5.png">
+        <img class="couple1" src="./images/couple1.avif">
+        
+
+        <img class="bouquet" src="./images/bouquet.png">
+        <img class="pinkl" src="./images/pinkleaf.png">
+        <img class="shoe" src="./images/shoes.avif">
+        </div>
+        <div class="d3">
+            <img class="leaf2" src="./images/leave.png">
+            <p class="p1">Your Wedding Planner</p>
+            <h1 class="wed">Wedding</h1>
+            <p class="p2">Let us help you create lasting memories on your special day with everlasting elegance events and we are at your side in every moment of the choice of your wedding</p>
+            <a class="btn2" href="#">MORE INFO</a>
+           <img class="leaf3" src="./images/leave2.png">
+        </div>
+        <img class="couple2" src="./images/couple2.avif">
+        <img class="leaf4" src="./images/leave3.png">
+        <img class="hair" src="https://img.freepik.com/premium-photo/hair-barrette-jewelry-isolated-white-background_1004054-3456.jpg?ga=GA1.1.1378902460.1724223857&semt=ais_hybrid">
+        <img class="cake" src="./images/cake.avif">
+    </div>
+    <div class="d4" id="about">
+        <div class="d5">
+            <p class="text1">Wedding day unique & perfect</p>
+            <p class="text2">Cherish Memories on Your Special Day</p>
+        </div>
+        <div class="d6">
+            <p class="text3">At Everlasting Events, we understand how important your special day is and we want to help you create the perfect day that you will remember fondly for years to come.<br><br>
+
+                We are dedicated to providing you with a truly unforgettable experience by working with the highest quality local vendors and providing you with the best services.</p>
+            <a class="btn3" href="#">DISCOVER MORE</a>
+        </div>
+    </div>
+    <div class="d7">
+     <img class="pic1" src="./images/people2.jpg">
+    <img class="pic2" src="./images/b2.jpg">
+    <img class="pic3" src="./images/cake2.avif">
+    <img class="pic4" src="./images/table.avif">
+  
+    </div>
+    <div class="d8" id="services">
+        <div class="card1">
+        <img src="./images/icon-04.png">
+        <p class="c1">Captured Love</p>
+        <p class="c2">Turn everyday moments into lasting memories, where unique stories come alive with a sprinkle of magic!</p>
+        <a class="cardbtn1" href="#">View Plans</a>
+    </div>
+    <div class="card2">
+        <img src="./images/footer-3 (1).png">
+        <p class="c1">Wedding Style</p>
+        <p class="c2">Celebrate your love story, where every wedding style shines with magic and creates timeless memories!</p>
+        <a class="cardbtn2" href="#">See More</a>
+    </div>
+    <div class="card3">
+        <img src="./images/icon-05.png">
+        <p class="c1">Choice Of Rings</p>
+        <p class="c2">Discover the rings that symbolize your journey together, each choice as unique as your love.</p><br>
+        <a class="cardbtn3" href="#">Click Here</a>
+    </div>
+    </div>
+    <div class="d9" id="gallery">
+        <img class="" src="./images/beach2.jpg"  width="600px">
+        <div class="it1">
+            <p>Beach Wedding</p>
+        </div>
+        <div class="g1">
+            <img src="./images/destination.jpg" width="450px" height="300px">
+            <div class="it2">
+                <p>Destination Wedding</p>
+            </div>
+            <img class="gimg" src="./images/antique wedding.jpg" width="450px" height="300px">
+            <div class="it3">
+                <p>Antique Wedding</p>
+            </div>
+        </div>
+        <div class="">
+            <img src="./images/rustic wedding.jpg" width="600px" height="300px">
+            <div class="it4">
+                <p>Rustic Wedding</p>
+            </div>
+            <img class="gimg" src="./images/cruisewed.jpg" width="600px" height="300px">
+            <div class="it5">
+                <p>Cruise Wedding</p>
+            </div>
+        </div>
+        </div>
+    </div>
+     <div class="d10">
+        <div>
+            <p class="tws">Total Wedding Setup</p>
+            <p class="dew">A Dream Elegant Wedding<br> Made Reality</p>
+           <img class="pink8" src="./images/pinkleaf.png">
+            <img class="wedvenue" src="./images/wedvenue.avif">
+            <img class="leaf8" src="./images/leaftt.png">
+        </div>
+       <div class="d11">
+        <p>Planning a wedding is an exciting, but often overwhelming experience. With so many details to consider it's no wonder many couples turn to wedding planners for help.
+         </p>
+      <p class="abcd">      We worked with a professional wedding planner to bring our dream wedding to life, from start to finish. The planner helped us choose a venue, design a theme and more.</p>
+    <a class="btn4" href="#">Check Plans</a>  
+    </div>
+     </div>
+     <div class="d12">
+        <img src="./images/daniela.png">
+        <img src="./images/alisha.png">
+        <img src="./images/magnolia.png">
+        <img src="./images/sophia.png">
+        <img src="./images/herbal.png">
+
+     </div>
+     <div class="d13">
+        <div class="img1">
+        <img src="./images/wedcake.avif" alt="" width="400px">
+    <div class="trans1">
+        <p style="margin-top: 370px;">
+            Personalized Cake
+        </p>
+    </div></div>
+    <div class="img1">
+        <img src="./images/wedflower.avif" alt="" width="400px">
+    <div class="trans1">
+        <p>
+            Floral Arrangement
+        
+        </p>
+    </div></div>
+    <div class="img1">
+        <img src="./images/wedtable.avif" alt="" width="400px">
+    <div class="trans1">
+        <p>
+            Table Equipment
+        </p>
+    </div></div>
+    <div class="img1">
+        <img src="./images/wedlocation.avif" alt="" width="400px">
+    <div class="trans1">
+        <p>
+            Many Locations
+        </p>
+    </div></div>
+       </div>
+       <div class="contact" id="contact">
+        <div class="cimag">
+            <img class="down" src="./images/contact2.avif">
+            <img src="./images/ccc.avif" class="up">
+        </div>
+        <form class="frm">
+            <p class="fp1">Professional Wedding Planning Services</p>
+            <p class="fp2">Request a Quote for Your Dream Wedding</p>
+        <input type="text" class="input" placeholder="Name"> <br><br>
+        <input type="email" class="input" placeholder="Email"><br><br>
+        <textarea rows="10" cols="53" class="msg" placeholder= "Message"></textarea><br><br>
+        <input type="submit" value="Submit" class="sbt">
+        </form>
+       </div>
+       <div class="footer">
+        <div class="f1">
+            <h3>Wedding Planner</h3>
+             <p>  From venue selection and vendor coordination to design and decor, our team has the expertise and resources to bring your vision to life.</p>
+             <img src="./images/ono.png" width="160px">
+        </div>
+<div class="f2">
+<h3>
+    Ceremony Planning
+</h3>
+<ul>
+<li>Vendor Coordination</li>
+<li>Budget Management</li>
+<li>Schedule Management</li>
+
+</ul>
+
+
+
+
+</div>
+<div class="lst">
+    <h3>Last Marriage
+    </h3>
+    <div>
+    <img src="./images/footer-01.png" width="100px">
+    <img src="./images/footer-02.png" width="100px">
+    <img src="./images/footer-03.png" width="100px">
+</div>
+</div>
+       </div><img class="leaf9" src="./images/leaf-09.png">
+       <hr class="hr">
+       <div class="d14">
+        <img class="logo1" src="./images/logo-08.png">
+        <img class="mail1" src="./images/mail.png">
+        <p class="mm">amandainfo@wedding.com</p>
+       </div>
+</body>
+</html>
